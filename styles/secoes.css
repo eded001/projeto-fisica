@@ -1,0 +1,30 @@
+:root {
+    --cor1: hsl(0, 0%, 13%);
+    --cor2: hsl(0, 0%, 18%);
+    --cor3: hsl(0, 0%, 24%);
+    --cor4: hsl(0, 0%, 28%);
+    --cor5: hsl(0, 0%, 32%);
+    --cor6: hsl(0, 0%, 37%);
+    --cor7: hsl(0, 0%, 42%);
+    --cor8: hsl(0, 0%, 47%);
+    --cor9: hsl(0, 0%, 51%);
+    --cor10: hsl(0, 0%, 55%);
+}
+
+section {
+    background-color: var(--cor2);
+}
+
+section h3{
+    background-color: var(--cor1);
+
+    border-radius: 10px 10px 0 0;
+}
+
+section p {background-color: var(--cor4);}
+
+section .p {
+    background-color: var(--cor2);
+
+    border-radius: 0 0 10px 10px;
+}
