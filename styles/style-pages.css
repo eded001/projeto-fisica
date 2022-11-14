@@ -17,33 +17,24 @@
 body {background-color: var(--cor4);}
 
 header {
+    background-color: var(--cor1);
+
     display: flex;
 
     flex-flow: row wrap;
 
     justify-content: space-between;
-
     align-items: center;
 
-    background-color: var(--cor1);
-
-    padding: 10px 0;
+    padding: 20px 10px;
 
     border-radius: 0 0 8px 8px;
 
     box-shadow: 0 0 5px 0px hsl(0, 0%, 10%);
 }
 
-header img {
-    width: 100px;
-
-    margin: 6px;
-}
-
 header h1 {
     font-family: var(--fonte-titulo);
-
-    text-align: center;
 
     color: white;
 }
@@ -74,6 +65,7 @@ header a {
     box-shadow: 1px 1px 0 .8px white;
 
     font-family: var(--fonte-paragrafo);
+    font-size: .5em;
 }
 
 header a:hover {text-decoration: underline;}
@@ -151,24 +143,23 @@ main section p {
     background-color: var(--cor4);
 }
 
-main section .p {
-    display: flex;
+footer {
+    background-color: var(--cor1);
 
-    text-indent: 0;
+    margin: 10px 0;
 
-    padding: 10px 0;
+    box-shadow: 0 -1px 3px 0px hsl(0, 0%, 20%);
 
-    justify-content: center;
-
-    background-color: var(--cor2);
-
-    border-radius: 0 0 10px 10px;
+    border-radius: 5px 5px 0 0;
 }
 
-main section .p a {
+footer p {
+    text-align: center;
+
     color: white;
 
-    text-decoration: none;
-}
+    font-family: var(--fonte-paragrafo);
+    font-size: 1.2em;
 
-main section .p a:hover {text-decoration: underline;}
+    padding: 2px 0;
+}
