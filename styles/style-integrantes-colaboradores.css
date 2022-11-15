@@ -2,9 +2,9 @@
     --fonte-titulo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --fonte-paragrafo: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    --cor1: hsl(0, 0%, 13%);
-    --cor2: hsl(0, 0%, 18%);
-    --cor3: hsl(0, 0%, 24%);
+    --cor1: #212121;
+    --cor2: #2e2e2e;
+    --cor3: #3d3d3d;
     --cor4: hsl(0, 0%, 28%);
     --cor5: hsl(0, 0%, 32%);
     --cor6: hsl(0, 0%, 37%);
@@ -138,11 +138,11 @@ main section ul {
     padding: 20px 20px;
 
     background-color: var(--cor1);
-
-    border-radius: 0 0 10px 10px;
 }
 
 main section ul .hide {color: var(--cor1);}
+
+main section ul li {margin: 8px 0 0 0;}
 
 main section ul a {
     color: white;
@@ -151,13 +151,46 @@ main section ul a {
 
     background-color: var(--cor3);
 
-    padding: 2px 4px;
+    padding: 1px;
 
-    border-radius: 5px;
+    border-radius: 5px 0;
 
-    box-shadow: .8px .8px 0 .3px white;
+    box-shadow: .8px .8px 0 1px white;
 }
 
 main section ul a:hover {text-decoration: underline;}
+
+main section #centro{
+    border-radius: 0;
+
+    list-style-type: none;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0;
+}
+
+main section #centro a {
+    padding: 0;
+
+    text-decoration: none;
+
+    color: white;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main section #centro a:hover {text-decoration: underline;}
+
+main section #centro img {
+    border-radius: 0;
+
+    width: 13%;
+
+    padding: 0 1px 0 10px;
+}
 
 footer {width: 100%; height: 12px;}
