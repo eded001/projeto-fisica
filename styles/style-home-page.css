@@ -64,7 +64,10 @@ header a {
     font-family: var(--fonte-paragrafo);
 }
 
-header a:hover {text-decoration: underline;}
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--cor8);
+}
 
 main {
     margin: 0 auto;

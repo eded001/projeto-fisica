@@ -76,10 +76,14 @@ header a {
     font-family: var(--fonte-paragrafo);
 }
 
-header a:hover {text-decoration: underline;}
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--cor10);
+}
 
 main {
     margin: 0 auto;
+    padding: 1.8%;
 
     color: white;
 
@@ -92,18 +96,72 @@ main {
     width: 85%;
 }
 
-main article {
+main #secao {display: none;}
+
+main .centro {
     display: flex;
 
-    flex-flow: row wrap;
-
     justify-content: center;
+    align-items: center;
 }
 
-main article h2 {
+main section .centro h2 {
+    font-size: 2.9vw;
+
+    text-align: center;
+
+    margin-bottom: .5%;
+
     font-family: var(--fonte-titulo);
 }
 
-main article p {
+main section #lista-de-topicos {
+    background-color: var(--cor5);
+    border-radius: 5px;
+
+    width: 80%;
+
+    margin-bottom: 3%;
+
+    box-shadow: inset 0px 0px 5px 0px black;
+
+    padding: .5% 5% 2%;
+}
+
+main section #lista-de-topicos p {font-family: var(--fonte-paragrafo);}
+
+main section #lista-de-topicos ol {font-family: var(--fonte-paragrafo);}
+
+main section #lista-de-topicos ol li:nth-child(2) {margin: .7% 0;}
+
+main section #lista-de-topicos ul {
+    margin-left: 2.4%;
+
+    list-style-type: disc;
+}
+
+main section #lista-de-topicos ol a{
+    text-decoration: none;
+
+    color: white;
+
     font-family: var(--fonte-paragrafo);
 }
+
+main section #lista-de-topicos ol a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--cor10);
+}
+
+main section article h2 {font-family: var(--fonte-titulo);}
+
+main section article h3 {font-family: var(--fonte-titulo);}
+
+main section article p {
+    font-family: var(--fonte-paragrafo);
+
+    text-indent: 1em;
+    text-align: justify;
+}
+
+main section article p::first-letter {font-size: 1.3em;}

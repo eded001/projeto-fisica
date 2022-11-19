@@ -158,7 +158,10 @@ main section ul a {
     box-shadow: .8px .8px 0 1px white;
 }
 
-main section ul a:hover {text-decoration: underline;}
+main section ul a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--cor8);
+}
 
 main section #centro{
     border-radius: 0;
