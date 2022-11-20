@@ -7,10 +7,12 @@
 #tupa {width: 310px;}
 #jaci {width: 310px;}
 
-#fig1, #fig2, #fig3, #fig4 {
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6 {
     display: flex;
 
     flex-flow: row wrap;
 
     justify-content: space-evenly;
+
+    gap: 5px;
 }
