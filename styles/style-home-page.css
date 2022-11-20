@@ -158,4 +158,8 @@ main section .p a {
     text-decoration: none;
 }
 
-main section .p a:hover {text-decoration: underline;}
+main section .p a:hover {
+    text-decoration: underline;
+
+    text-decoration-color: var(--cor10);
+}
