@@ -1,0 +1,16 @@
+.palavras {width: 40%;}
+
+#caos, #prometheus, #pandora, #gaia {width: 310px;}
+#urano-sendo-castrado{ width: 90%;}
+#cronos-a-lanchar {width: 330px;}
+#erinas1, #erinas2 {width: 350px;}
+#tupa {width: 310px;}
+#jaci {width: 310px;}
+
+#fig1, #fig2, #fig3, #fig4 {
+    display: flex;
+
+    flex-flow: row wrap;
+
+    justify-content: space-evenly;
+}

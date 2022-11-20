@@ -1,0 +1,80 @@
+:root {
+    --fonte-titulo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-paragrafo: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    --cor1: #212121;
+    --cor2: #2e2e2e;
+    --cor3: #3d3d3d;
+    --cor4: #474747;
+    --cor5: #525252;
+    --cor6: #5e5e5e;
+    --cor7: #6b6b6b;
+    --cor8: #808080;
+    --cor9: #828282;
+    --cor10: #8c8c8c;
+}
+
+.centro h2 {
+    font-size: 2.9vw;
+
+    text-align: center;
+
+    margin-bottom: .5%;
+
+    font-family: var(--fonte-titulo);
+}
+
+main #lista-de-topicos {
+    background-color: var(--cor5);
+    border-radius: 5px;
+
+    width: 85%;
+
+    margin-bottom: 2%;
+
+    box-shadow: inset 0 0 4px 0 black;
+
+    padding: .5% 8% 3%;
+}
+
+main #lista-de-topicos p {
+    font-family: var(--fonte-paragrafo);
+
+    margin-bottom: 2px;
+}
+
+main #lista-de-topicos ol, ul {
+    font-family: var(--fonte-paragrafo);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+main #lista-de-topicos ul {
+    margin-top: .2%;
+    margin-left: 2.4%;
+
+    list-style-type: disc;
+}
+
+main #lista-de-topicos ol a{
+    text-decoration: none;
+
+    background-color: hsl(0, 0%, 39%);
+
+    border-radius: 8px;
+
+    padding: 0 3px;
+
+    color: white;
+
+    font-family: var(--fonte-paragrafo);
+}
+
+main #lista-de-topicos ol a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--cor10);
+}
