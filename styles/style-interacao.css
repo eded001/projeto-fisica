@@ -21,11 +21,9 @@
     justify-content: center;
     align-items: center;
 
-    width: 60%;
+    width: 70%;
 
     padding: 4% ;
-
-    background-color: var(--cor5);
 
     border-radius: 10px;
 
@@ -36,7 +34,7 @@
     text-align: center;
 
     font-family: var(--fonte-paragrafo);
-    font-size: 1.2em;
+    font-size: .5cm;
 
     color: white;
 }
@@ -91,16 +89,24 @@
     background-color: var(--cor7);
 
     font-family: var(--fonte-paragrafo);
-    font-size: 1.2em;
+    font-size: 1.1em;
 
     box-shadow: 0px 0px 3.5px hsl(0, 0%, 23%);
 
     color: white;
 }
 
-#responder {background-color: forestgreen;}
-#nao-responder {background-color: tomato;}
-#responder-continuar {background-color: darkgoldenrod;}
+#responder {background-color: hsl(120, 61%, 34%);}
+#responder:hover {background-color: hsl(120, 61%, 37%);}
+
+#nao-responder {background-color: hsl(9, 100%, 56%);}
+#nao-responder:hover {background-color: hsl(9, 100%, 59%);}
+
+#responder-continuar {background-color: hsl(43, 89%, 38%);}
+#responder-continuar:hover {background-color: hsl(43, 89%, 41%);}
+
+#responder-recarregar {background-color: hsl(207, 44%, 49%);}
+#responder-recarregar:hover {background-color: hsl(207, 44%, 52%);}
 
 #responder, #responder-recarregar, #nao-responder, #responder-continuar {cursor: pointer;}
 
@@ -109,3 +115,7 @@
 #responder-recarregar, #responder-continuar {display: none;}
 
 #interacao b {color: steelblue;}
+
+div[name="arte-e-cultura"] {background: var(--cor5) url(../imgs/o-nacimento-de-vênus.jpg) center top;}
+div[name="cosmogonia"] {background: var(--cor5) url(../imgs/deuses_gregos_widelg.jpg) center center;}
+div[name="cosmologia"] {background: var(--cor5) url(../imgs/ceu-estrelado01.jpg) center center;}

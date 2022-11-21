@@ -30,8 +30,7 @@ function Responder(){
         resposta.innerHTML = 'Por favor, preencha o campo corretamente!! <b>Recarregue para tentar outra vez</b>'
         resposta.style.color ='#ff6347'
         BotaoRecarregar.style.display = 'block'
-        BotaoRecarregar.style.backgroundColor = '#4682b4'
-        BotaoNaoResponder.value = 'Continuo não querendo responder >:('
+        BotaoNaoResponder.value = 'Agora que não quero mesmo responder >:('
         pergunta.style.display = 'none'
         nomeDoSujeito.style.display = 'none'
         BotaoResponder.style.display = 'none'
@@ -68,4 +67,4 @@ function Continuar() {
     secao.style.display = 'block'
 }
 
-function Recarregar() {document.location.reload(true)} // recarregar página
+function Recarregar() {document.location.reload(true)} // recarrega a página
