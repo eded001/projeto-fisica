@@ -96,23 +96,23 @@
     color: white;
 }
 
-#responder {background-color: hsl(120, 61%, 34%);}
-#responder:hover {background-color: hsl(120, 61%, 37%);}
+#responder {background-color: forestgreen;}
+#responder:hover {background-color: hsl(120, 61%, 30%);}
 
-#nao-responder {background-color: hsl(9, 100%, 56%);}
-#nao-responder:hover {background-color: hsl(9, 100%, 59%);}
+#nao-responder {background-color: tomato;}
+#nao-responder:hover {background-color: hsl(9, 100%, 34%);}
 
-#responder-continuar {background-color: hsl(43, 89%, 38%);}
+#responder-continuar {background-color: gold;}
 #responder-continuar:hover {background-color: hsl(43, 89%, 41%);}
 
-#responder-recarregar {background-color: hsl(207, 44%, 49%);}
+#responder-recarregar {background-color: steelblue;}
 #responder-recarregar:hover {background-color: hsl(207, 44%, 52%);}
 
 #responder, #responder-recarregar, #nao-responder, #responder-continuar {cursor: pointer;}
 
 #responder:active, #responder-recarregar:active, #nao-responder:active, #responder-continuar:active {box-shadow: inset 0px 0px 3.5px hsl(0, 0%, 10%);}
 
-#responder-recarregar, #responder-continuar {display: none;}
+#responder-recarregar, #responlder-continuar {display: none;}
 
 #interacao b {color: steelblue;}
 
