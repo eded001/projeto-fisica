@@ -27,7 +27,7 @@ function Responder(){
 
     if (nomeDoSujeito.value == '') {
         resposta.style.display = 'block'
-        resposta.innerHTML = 'Por favor, preencha o campo corretamente!! <b>Recarregue para tentar outra vez</b>'
+        resposta.innerHTML = 'Talvez você tenha apertado o botão de responder sem querer, <b>recarregue para tentar outra vez</b>'
         resposta.style.color ='#ff6347'
         BotaoRecarregar.style.display = 'block'
         BotaoNaoResponder.value = 'Agora que não quero mesmo responder >:('
