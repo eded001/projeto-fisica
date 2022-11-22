@@ -166,3 +166,5 @@ main section article p {
 }
 
 main section article p::first-letter {font-size: 1.3em;}
+
+main section article ul {padding: 0 18px;}
