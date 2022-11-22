@@ -1,2 +1,2 @@
-# projeto-cosmologia
- site para o trabalho de física
+# projeto-fisica
+ site para o trabalho de física >:D
