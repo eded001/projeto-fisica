@@ -112,7 +112,7 @@
 
 #responder:active, #responder-recarregar:active, #nao-responder:active, #responder-continuar:active {box-shadow: inset 0px 0px 3.5px hsl(0, 0%, 10%);}
 
-#responder-recarregar, #responder-continuar {display: none;}
+#responder-recarregar, #responlder-continuar {display: none;}
 
 #interacao b {color: steelblue;}
 
