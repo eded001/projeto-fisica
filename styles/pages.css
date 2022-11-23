@@ -63,7 +63,10 @@ header ul {
     gap: 10px;
 }
 
-header ul li {margin: 4px;}
+header ul li {
+    margin: 5px;
+    padding: 5px;
+}
 
 header a {
     text-decoration: none;
@@ -72,7 +75,6 @@ header a {
 
     background-color: var(--cor3);
 
-    margin: 5px;
     padding: 5px;
 
     border-radius: 8px 2px;
