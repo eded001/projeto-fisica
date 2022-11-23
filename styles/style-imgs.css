@@ -1,8 +1,9 @@
 .palavras {width: 40%;}
 
-#caos, #prometheus, #pandora, #gaia ,#tupa, #jaci, #exu, #takuapu {width: 250px;}
+#caos, #prometheus, #pandora, #gaia ,#tupa, #jaci, #exu, #takuapu, #cronos-a-lanchar {width: 250px;}
 #urano-sendo-castrado{ width: 90%;}
-#cronos-a-lanchar {width: 300px;}
+
+#img1, #img2, #img3, #img4, #erinas1 ,#venus, #mano {width: 100%;}
 
 #fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7 {
     display: flex;
@@ -17,5 +18,3 @@
 }
 
 #piramides {width: 60vw;}
-
-#img1, #img2, #img3, #img4, #erinas1 ,#venus, #mano {width: 100%;}
