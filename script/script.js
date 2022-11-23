@@ -70,3 +70,16 @@ function Continuar() {
 }
 
 function Recarregar() {document.location.reload(true)} // recarrega a página
+
+function MostrarOuEsconderLista() {
+    var lista = document.querySelector('#lista')
+    var simbolo = document.querySelector('.material-symbols-outlined')
+
+    if(lista.style.display == 'block') {
+        lista.style.display = 'none'
+        simbolo.innerHTML = 'arrow_right'
+    } else {
+        lista.style.display = 'block'
+        simbolo.innerHTML = 'arrow_drop_down'
+    }
+}

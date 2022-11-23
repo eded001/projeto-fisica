@@ -110,10 +110,10 @@ main #secao {display: none;}
     align-items: center;
 }
 
-main section {
-    margin: 4.5px 0;
+main section article {
+    margin: 4.7px 0;
 
-    box-shadow: 0 0 1.5px 0 hsl(0, 0%, 18%);
+    box-shadow: -1px 1px 3px 0 hsl(0, 0%, 15%);
 
     background-color: var(--cor4);
 
@@ -177,15 +177,9 @@ footer {
 
     border-radius: 5px;
 
-    background-color: var(--cor4);
+    background-color: var(--cor2);
 
     width: 80%;
-}
-
-footer img {
-    width: 11px;
-
-    padding-right: 2px;
 }
 
 footer h5 {
@@ -193,6 +187,8 @@ footer h5 {
 
     font-family: var(--fonte-titulo);
     font-size: 1.5em;
+
+    cursor: pointer;
 
     color: white;
 
