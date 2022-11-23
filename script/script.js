@@ -32,7 +32,7 @@ function Responder(){
         resposta.innerHTML = 'Talvez você tenha apertado o botão de responder sem querer, <b>recarregue para tentar outra vez</b>'
         resposta.style.color ='#ff6347'
         BotaoRecarregar.style.display = 'block'
-        BotaoNaoResponder.value = 'Agora que não quero mesmo responder >:('
+        BotaoNaoResponder.value = 'Nem queria responder D:<'
         pergunta.style.display = 'none'
         nomeDoSujeito.style.display = 'none'
         BotaoResponder.style.display = 'none'

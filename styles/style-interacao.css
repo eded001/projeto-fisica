@@ -21,9 +21,11 @@
     justify-content: center;
     align-items: center;
 
-    width: 80%;
+    width: 90%;
 
-    padding: 4% ;
+    margin-top: 10px;
+
+    padding: 4%;
 
     border-radius: 10px;
 
@@ -34,7 +36,7 @@
     text-align: center;
 
     font-family: var(--fonte-paragrafo);
-    font-size: .5cm;
+    font-size: 1.3em;
 
     color: white;
 }
@@ -49,11 +51,11 @@
     border: none;
     border-radius: 5px;
 
-    width: 100%;
-
     margin-top: 5px;
 
     text-align: center;
+
+    width: 100%;
 
     background-color: var(--cor3);
 
@@ -84,7 +86,7 @@
 
     margin-top: 10px;
 
-    padding: 3%;
+    padding: 5%;
 
     background-color: var(--cor7);
 
