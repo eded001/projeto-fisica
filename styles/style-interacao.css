@@ -116,7 +116,7 @@
 
 #responder-recarregar, #responder-continuar {display: none;}
 
-#interacao b {color: steelblue;}
+#interacao #azul {color: steelblue;}
 
 div[name="arte-e-cultura"] {
     background: var(--cor5) url(../imgs/o-nacimento-de-vênus.jpg) no-repeat center top;

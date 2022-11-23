@@ -29,7 +29,7 @@ function Responder(){
 
     if (nomeDoSujeito.value == '') {
         resposta.style.display = 'block'
-        resposta.innerHTML = 'Talvez você tenha apertado o botão de responder sem querer, <b>recarregue para tentar outra vez</b>'
+        resposta.innerHTML = 'Talvez você tenha apertado o botão de responder sem querer, <span id="azul">recarregue para tentar outra vez</span>'
         resposta.style.color ='#ff6347'
         BotaoRecarregar.style.display = 'block'
         BotaoNaoResponder.value = 'Nem queria responder D:<'
