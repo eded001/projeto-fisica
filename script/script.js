@@ -2,11 +2,13 @@ var BotaoNaoResponder = document.querySelector('#nao-responder')
 var BotaoResponder = document.querySelector('#responder')
 var BotaoContinuar = document.querySelector('#responder-continuar')
 var BotaoRecarregar = document.querySelector('#responder-recarregar')
+var BotaoLista = document.querySelector('#lista-fontes')
 
 BotaoNaoResponder.addEventListener('click', NaoResponder)
 BotaoResponder.addEventListener('click', Responder)
 BotaoContinuar.addEventListener('click', Continuar)
 BotaoRecarregar.addEventListener('click', Recarregar)
+BotaoLista.addEventListener('click', MostrarOuEsconderLista)
 
 function NaoResponder() {
     var espacoDeInteracao = document.querySelector('.centro')

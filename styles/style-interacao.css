@@ -112,10 +112,19 @@
 
 #responder:active, #responder-recarregar:active, #nao-responder:active, #responder-continuar:active {box-shadow: inset 0px 0px 3.5px hsl(0, 0%, 10%);}
 
-#responder-recarregar, #responlder-continuar {display: none;}
+#responder-recarregar, #responder-continuar {display: none;}
 
 #interacao b {color: steelblue;}
 
-div[name="arte-e-cultura"] {background: var(--cor5) url(../imgs/o-nacimento-de-vênus.jpg) center top;}
-div[name="cosmogonia"] {background: var(--cor5) url(../imgs/deuses_gregos_widelg.jpg) center center;}
-div[name="cosmologia"] {background: var(--cor5) url(../imgs/ceu-estrelado01.jpg) center center;}
+div[name="arte-e-cultura"] {
+    background: var(--cor5) url(../imgs/o-nacimento-de-vênus.jpg) no-repeat center top;
+    background-size: cover;
+}
+div[name="cosmogonia"] {
+    background: var(--cor5) url(../imgs/deuses_gregos_widelg.jpg) no-repeat center center;
+    background-size: cover;
+}
+div[name="cosmologia"] {
+    background: var(--cor5) url(../imgs/ceu-estrelado01.jpg) no-repeat center center;
+    background-size: cover;
+}
